@@ -1,0 +1,22 @@
+h1{
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+fieldset{
+    background-color: black;
+}
+legend{
+    color: white;
+    
+}
+label{
+    margin-right: 2%;
+    margin-left: 2%;
+    color: white;
+}
+input{
+    margin-left: 1%;
+}
