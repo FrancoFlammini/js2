@@ -28,10 +28,12 @@ function zood(){
     
     do {
         dia = parseInt(prompt("dia de nacimiento"));
-        mes = parseInt(prompt("mes de nacimiento"));  
+        mes = parseInt(prompt("mes de nacimiento (en numeros)"));  
+        
         ok = validarFecha(dia, mes);
         if (!ok){
             alert("La fecha ingresada no es valida");
+            // location.reload();
         }     
         
     } while (!ok)
