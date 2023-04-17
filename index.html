@@ -10,21 +10,24 @@
 <body>
 
     <form name="formulario">
-<fieldset>
-    <legend>Bienvenidos</legend>
-    <label>Para averiguar tu signo zodiacal da click en "averiguar"</label>
-    <!-- <label>Dia de nacimiento</label>
-    <input  type="numbre" name="dia" max="31" min="1" step="" requiered="">
-    <label>Mes de nacimiento</label>
-    <input  type="numbre" name="mes" max="12" min="1" required=""> -->
-    <input value="Averiguar" type="button" onclick="zood();">
-</fieldset>
+        <fieldset>
+            <legend>Registro de personas</legend>
+            <label>Nombre:</label>
+            <input type="text" name="nombre" required>
+            <label>Edad:</label>
+            <input type="number" name="edad" min="1" max="120" required>
+            <label>Estatura:</label>
+            <input type="number" name="estatura" min="0" max="300" step="0.01" required>
+            <label>Peso:</label>
+            <input type="number" name="peso" min="0" max="1000" step="0.01" required>
+            <input type="button" value="Agregar persona" onclick="agregarPersona()">
+          </fieldset>
     </form>
 
 
 
     <header>
-            <h1>Entrega01</h1>
+            <h1>Entrega02</h1>
        </header>
         <main>
 
